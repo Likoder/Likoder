@@ -47,8 +47,8 @@
 
 #### BE
 * При переходе на вкладку использовать:
-/portal.v1.ChildrenService/List
-/portal.v1.FriendsService/List
+`/portal.v1.ChildrenService/List` и
+`/portal.v1.FriendsService/List`
 
 ***
 ### График отсутствия:

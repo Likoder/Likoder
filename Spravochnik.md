@@ -46,6 +46,10 @@
 
 
 #### BE
+* При переходе на вкладку использовать:
+/portal.v1.ChildrenService/List
+/portal.v1.FriendsService/List
+
 ***
 ### График отсутствия:
 #### Бизнес-логика

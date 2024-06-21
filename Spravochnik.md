@@ -50,7 +50,8 @@
 
 
 #### BE
-* При переходе на вкладку использовать:
+
+* При переходе на вкладку сервер возвращает
 `/portal.v1.ChildrenService/List` и
 `/portal.v1.FriendsService/List`
 

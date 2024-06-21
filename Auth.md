@@ -23,7 +23,7 @@
 `/portal.v1.ChildrenService/List`
 
 #### Logout
-????
+* Когда приходит запрос от клиента `/portal.v1.AuthService/Logout` удалить `access_token`, `refresh_token`, `youtrack_refresh_token`
 
 #### FE:
 * При аутентификации пользователю необходимо заполнить форму:

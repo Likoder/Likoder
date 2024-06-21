@@ -20,31 +20,14 @@
 #### Дни рождения:
 * При переходе во вкладку "Дни рождения" сервер возвращает
 `/portal.v1.FriendService/List` 
-`/portal.v1.ChildrenService/List` 
-***
-(описать logout)
-***
-ux:
+`/portal.v1.ChildrenService/List`
 
- используется `/portal.v1.AuthService/Auth`
+#### Logout
+????
+
 ui:
 * При аутентификации пользователю необходимо заполнить форму
-(Пример формы)
+![image](https://github.com/Likoder/Likoder/assets/132882886/e396b901-9a0b-4001-8b0f-2165321fead4)
+
 * После аутентификации для доступа к серверу происходит авторизации к порталу через заполнение формы Youtrack
 (пример формы)
-* 
-
-
-
-
-***
-`/portal.v1.AdminService/UserList`
-
-`/portal.v1.EventsService`
-
-`/portal.v1.LibraryService`
-`/portal.v1.kbaseService`
-`/portal.v1.retroService`
-`/portal.v1.socialProjectService`
-ux:
-ui:

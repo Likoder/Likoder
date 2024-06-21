@@ -13,10 +13,6 @@
 `/portal.v1.vacationService/List`
 `/portal.v1.OfficeInfoService/GetOfficeInfoServiceList`
 
-#### Добавить/удалить роль админа:
-* После нажатия на кнопку "Добавить роль админа" сервер возвращает `/portal.v1.AdminService/SetRoleUser` 
-* После нажатия на кнопку "Удалить роль админа" сервер возвращает `/portal.v1.AdminService/RevokeUserRole` 
-
 #### Дни рождения:
 * При переходе во вкладку "Дни рождения" сервер возвращает
 `/portal.v1.FriendService/List` 

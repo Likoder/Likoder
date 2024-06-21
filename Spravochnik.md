@@ -70,6 +70,7 @@
 
 
 #### BE
+* При использовании `portal.v1.VacationService/Create` возвращает изменённый `portal.v1.VacationService/List`
 ***
 ### Команда тагес:
 #### Бизнес-логика

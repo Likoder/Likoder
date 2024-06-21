@@ -15,7 +15,7 @@
 * При переходе во вкладку "Дни рождения" сервер возвращает
 `/portal.v1.FriendService/List` 
 `/portal.v1.ChildrenService/List` 
-
+***
 (описать logout)
 ***
 ux:

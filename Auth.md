@@ -25,7 +25,7 @@
 #### Logout
 ????
 
-ui:
+#### FE:
 * При аутентификации пользователю необходимо заполнить форму
 ![image](https://github.com/Likoder/Likoder/assets/132882886/e396b901-9a0b-4001-8b0f-2165321fead4)
 

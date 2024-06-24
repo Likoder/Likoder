@@ -1,4 +1,4 @@
-## Set/Revoke User Role
+## AdminService/Set&RevokeUserRole
 ### Description:
 
 Добавление и удаление роли администратора.

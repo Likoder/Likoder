@@ -1,5 +1,5 @@
 
-## List
+## SocialProjectService/List
 
 ### Description:
 Получение информации о социальных проектах.

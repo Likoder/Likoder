@@ -27,12 +27,4 @@ Example Value:
 }
 ```
 
-## Paramets:
-
-|Name | Type | Required fields | Description |
-|---|-----|---------------|-----------|
-|access_token|string|Обязательное поле|Токен доступа|
-|refresh_token|string|Обязательное поле|Обновляемый токен|
-|youtrack_refresh_token|string|Обязательное поле|Токен Youtrack|
-
 

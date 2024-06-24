@@ -1,4 +1,4 @@
-## List
+## EventService/List
 
 ### Description:
 Получение информации о мероприятиях.

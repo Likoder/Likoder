@@ -1,4 +1,4 @@
-## Auth
+## AuthService/Auth
 
 ### Description:
 Получение токенов.

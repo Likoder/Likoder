@@ -14,10 +14,6 @@
 `/portal.v1.vacationService/List`
 `/portal.v1.OfficeInfoService/GetOfficeInfoServiceList`
 
-#### Дни рождения:
-* При переходе во вкладку ["Дни рождения"](https://tages-admin-portal-dev.tages.dev/handbook/birthdays) сервер возвращает
-`/portal.v1.FriendService/List` 
-`/portal.v1.ChildrenService/List`
 
 #### Logout
 * Когда приходит запрос от клиента `/portal.v1.AuthService/Logout` удалить `access_token`, `refresh_token`, `youtrack_refresh_token`

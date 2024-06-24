@@ -14,5 +14,5 @@
 * Кнопки "Test copy", "Test": расположены под заголовком, белые кнопки с черным текстом в названии, под названием указывается количество статей серым текстом. Функциональность: открывают статьи.
 
 #### BE
-При переходе во вкладку возвращает `portal.v1.KnowledgeBaseService/GetArticleTree`
-При открытии темы возвращает `portal.v1.KnowledgeBaseService/GetArticleByID`
+* При переходе во вкладку возвращает `portal.v1.KnowledgeBaseService/GetArticleTree`
+* При открытии темы возвращает `portal.v1.KnowledgeBaseService/GetArticleByID`

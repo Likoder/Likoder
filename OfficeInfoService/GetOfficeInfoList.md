@@ -8,7 +8,7 @@
 
 ### Response:
 
-Code 0
+Status Code 0
 
 OK
 

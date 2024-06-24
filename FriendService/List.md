@@ -1,4 +1,4 @@
-## List
+## SocialProjectService/List
 
 ### Description:
 Получение информации о друзьях сотрудника.

@@ -1,4 +1,4 @@
-## GetAuthURL
+## AuthService/GetAuthURL
 
 ### Description:
 Получение ссылки на авторизацию.

@@ -6,7 +6,7 @@ Request:
 
 Словарь данных
 
-|Name|Type|Required fields|Description|
+| Name | Type | Required fields | Description |
 |---|-----|---------------|-----------|
 |fdsa|fdsaf|fdafdas|fdsafdas|
 

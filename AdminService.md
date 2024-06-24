@@ -1,7 +1,9 @@
-### Set/Revoke User Role
-Description: Добавление и удаление роли администратора.
+## Set/Revoke User Role
+### Description 
 
-Request:
+Добавление и удаление роли администратора.
+
+### Message:
 ```
 {
     "id": "90165e5b-d7a1-4dc6-b710-9484c80ab3d8",
@@ -9,7 +11,7 @@ Request:
 }
 ```
 
-Словарь данных
+### Parameters
 
 |Name | Type | Required fields | Description |
 |---|-----|---------------|-----------|
@@ -18,7 +20,14 @@ Request:
 
 
 
-Response:
+### Response:
+
+Code 0
+
+OK
+
+Example Value:
+
 ```
  {
     "user": {
@@ -47,10 +56,24 @@ Response:
 
 
 
-### Admin UserList
+## UserList
 
-Description: Выводит список ролей пользователей  
-Response:
+### Description
+Выводит список ролей пользователей  
+
+
+### Message:
+``` {} ```
+
+
+### Response:
+
+Code 0
+
+OK
+
+Example Value:
+
    ```
    "list": [
             {
@@ -66,7 +89,9 @@ Response:
                 "avatar": "https://youtrack-dev.tages.dev/hub/api/rest/avatar/07777a71-7cde-49e1-83c1-1fee9dad6063?etag=MjgtNzU%3D"
             },
 ```
-словарь
+
+### ??
+
 |Name | Type | Required fields | Description |
 |---|-----|---------------|-----------|
 |key|string|Обязательное поле|Ключ роли|
@@ -76,4 +101,10 @@ Response:
 |name|string|Обязательное поле|Имя и фамилия пользователя|
 |avatar|string|Обязательное поле|Аватар пользователя|
 
+### Response:
 
+CODE 7 PERMISSION DENIED
+
+Access denide
+
+Error: set role to yourself

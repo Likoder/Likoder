@@ -32,17 +32,6 @@ Example Value:
             },
 ```
 
-### ??
-
-|Name | Type | Required fields | Description |
-|---|-----|---------------|-----------|
-|key|string|Обязательное поле|Ключ роли|
-|name|string|Обязательное поле|Наименование роли|
-|id|string|Обязательное поле|ID пользователя|
-|youtrack_id|string|Обязательное поле|ID Youtrack аккаунта пользователя|
-|name|string|Обязательное поле|Имя и фамилия пользователя|
-|avatar|string|Обязательное поле|Аватар пользователя|
-
 ### Response:
 
 CODE 7 PERMISSION DENIED

@@ -1,5 +1,5 @@
 ## Set/Revoke User Role
-### Description 
+### Description:
 
 Добавление и удаление роли администратора.
 

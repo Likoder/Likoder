@@ -136,10 +136,10 @@
 Функциональность: отображение списка дней рождений, возможность переключения на календарный режим.
 
 #### BE
+* При переходе во вкладку ["Дни рождения"](https://tages-admin-portal-dev.tages.dev/handbook/birthdays) сервер возвращает
+`/portal.v1.FriendService/List` 
+`/portal.v1.ChildrenService/List`
 
-* При переходе на вкладку сервер возвращает
-`/portal.v1.ChildrenService/List` и
-`/portal.v1.FriendsService/List`
 
 ***
 ### График отсутствия:

@@ -5,7 +5,9 @@ Request:
 } ```
 
 Словарь данных
-|Name|||
+
+|Name|Type|Required fields|Description|
+|-|-|-|-|
 
 Response:
 ``` {

@@ -46,7 +46,7 @@ Example Value:
 
 CODE 7 PERMISSION DENIED
 
-Access denide
+Access denied
 
 Error: set role to yourself
 

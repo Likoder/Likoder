@@ -46,7 +46,7 @@ Example Value:
 ```
 ### Response:
 
-CODE 7 INTERNAL
+CODE 13 INTERNAL
 
 Operation couldn’t be completed because of an internal error at the server.    
 

@@ -11,8 +11,6 @@
 }
 ```
 
-### Parameters
-
 |Name | Type | Required fields | Description |
 |---|-----|---------------|-----------|
 |id|string|Обязательное поле|ID пользователя|

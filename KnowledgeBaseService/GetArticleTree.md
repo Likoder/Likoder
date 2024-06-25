@@ -1,7 +1,7 @@
 ## KnowledgeBaseService/GetArticleTree
 
 ### Description:
-Показывает древо статей.
+Отображает древо статей.
 
 ### Message:
 ```

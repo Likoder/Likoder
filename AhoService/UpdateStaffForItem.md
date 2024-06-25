@@ -42,4 +42,12 @@ Example Value:
         "date": null,
         "status": false
     }
-}```
+}
+```
+### Response:
+
+CODE 7 INTERNAL
+
+Operation couldn’t be completed because of an internal error at the server.    
+
+Error: internal error

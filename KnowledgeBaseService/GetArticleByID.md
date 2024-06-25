@@ -10,7 +10,7 @@
 ```
 
 ### Parametrs:
-|Name|Type|value|Description|
+|Name|Type|Required fields|Description|
 |-|-|-|-|
 |id|string|Обязательное поле|ID статьи|
 

@@ -42,6 +42,12 @@ Example Value:
     }
 }
 ```
+### Response:
 
+CODE 7 PERMISSION DENIED
+
+Access denide
+
+Error: set role to yourself
 
 

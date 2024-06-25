@@ -1,7 +1,7 @@
-## retroService/List
+## ahoService/UpdateStaffForItem
 
 ### Description:
-??????
+`UpdateStaffForItem` предназначен для присваивания или удаления устройства или предмета для сотрудника.
 
 ### Message:
 ```

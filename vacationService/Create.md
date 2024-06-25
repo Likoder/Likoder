@@ -56,3 +56,10 @@ Example Value:
   "office_from": "OFFICE_UFA"
 }
 ```
+### Response:
+
+CODE 13 INTERNAL
+
+Operation couldn’t be completed because of an internal error at the server.    
+
+Error: internal error

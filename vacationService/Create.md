@@ -1,7 +1,7 @@
 ## VacationService/Create
 ### Description 
 
-Добавление отсутствия сотрудника.
+Метод `VacationService/Create` позволяет добавить отсутствие сотрудникам.
 
 ### Message:
 ```

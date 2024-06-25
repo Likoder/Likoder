@@ -9,6 +9,9 @@
     "code": "7JaDjJxH"
 }
 ```
+|Name|Type|Required fields|Description|
+|-|-|-|-|
+|code|string|Обязательное поле|Код авторизации|
 ### Response:
 
 Code 0

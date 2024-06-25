@@ -94,8 +94,10 @@
 
 #### BE
 ##### Добавить/удалить роль админа:
-* После нажатия на кнопку "Добавить роль админа" сервер возвращает `/portal.v1.AdminService/SetRoleUser` 
-* После нажатия на кнопку "Удалить роль админа" сервер возвращает `/portal.v1.AdminService/RevokeUserRole` 
+1. При нажатии на нопку "Добавить роль админа":
+* После нажатия на кнопку "Добавить роль админа" используется `/portal.v1.AdminService/SetRoleUser` изменяет значение `key` с `staff` на `admin`.
+2. При нажатии на нопку "Добавить роль админа":
+* После нажатия на кнопку "Удалить роль админа" используется `/portal.v1.AdminService/RevokeUserRole` изменяет значение `key` с `admin` на `staff`
 
 ***
 ### [Дни рождения:](https://tages-admin-portal-dev.tages.dev/handbook/birthdays)

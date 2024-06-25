@@ -1,4 +1,4 @@
-## EmployeeService/List
+## ahoService/Statistics
 
 ### Description:
 Получение статистики о технике и предметах.

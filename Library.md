@@ -12,6 +12,7 @@
 На сайте для сотрудников необходимо добавить вкладку "Библиотека", где будет отображаться каталог книг, кнопки для навигации и взаимодействия с библиотекой, а также возможность предложить новую книгу. Необходимо предусмотреть функциональные кнопки и элементы для удобной навигации по каталогу книг.
 
 * Кнопки "Все книги", "Правила пользования библиотекой", "Предложить книгу": расположить в верхней части страницы. <br>
+
 **Кнопка "Все книги"**
 * Дизайн: оранжевая кнопка для возврата к полному списку книг.
 * Функционал: возвращает к полному списку кник
@@ -55,12 +56,12 @@ Name | Type  | Required fields| Description |
 ## BE
 
 1. При загрузке страницы:
-* При загрузке страницы выполняется запрос к  `/portal.v1.LibraryService/List` для получения списка всех книг в библиотеке.
+* При загрузке страницы выполняется запрос к  [`/portal.v1.LibraryService/List`](https://git.tjump.ru/tages/tages-practice/analytics/-/blob/master/WW/gRPC/LibraryService/List__1_.md) для получения списка всех книг в библиотеке.
 2. Бронирование пользователем книги:
-* Для бронирования книги используется  `/portal.v1.LibraryService/ReserveBook`.
+* Для бронирования книги используется  [`/portal.v1.LibraryService/ReserveBook`](https://git.tjump.ru/tages/tages-practice/analytics/-/blob/master/WW/gRPC/LibraryService/ReserveBook.md).
 * Запрос содержит параметры `book_id"` а в ответ возвращает объект книги, где поле `staff_id` заполняется значением пользователя, который забронировал книгу.
 3. Возвращение книги пользователем:
-* Для бронирования книги используется  `/portal.v1.LibraryService/ReturnBook`.
+* Для бронирования книги используется  [`/portal.v1.LibraryService/ReturnBook`](https://git.tjump.ru/tages/tages-practice/analytics/-/blob/master/WW/gRPC/LibraryService/ReturnBook.md).
 * Запрос содержит параметры `book_id"` а в ответ возвращает объект книги, где поле `staff_id` очищается.
 4. Предложение книги:
-* Для предложения книги используется `/portal.v1.LibraryService/SuggestBook`
+* Для предложения книги используется [`/portal.v1.LibraryService/SuggestBook`](https://git.tjump.ru/tages/tages-practice/analytics/-/blob/master/WW/gRPC/LibraryService/SuggestBook.md)

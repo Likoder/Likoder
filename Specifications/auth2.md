@@ -29,7 +29,7 @@
 
 |Name|Type|Description|
 |-|--------|---|
-|componentRoles|enum|Роль на платформе|
+|componentRoles|enum|Роль пользователя на платформе:<br>  1 - Соискатель <br>2 - Основатель<br>3 - Кадровое или аутстаффинговое агентство|
 |email|string|Электронная почта пользователя|
 |password|string|Пароль|
 

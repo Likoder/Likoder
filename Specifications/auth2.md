@@ -14,7 +14,7 @@
 
 #### BE:
 
-* Для авторизации авторизации используется метод [`GET/user/signin`](https://leoka-estetica-dev.ru.net/swagger/index.html), он забирает входные данные пользователя и возвращает Bearer Token
+* Для авторизации авторизации используется метод [`GET/user/signin`](https://leoka-estetica-dev.ru.net/swagger/index.html)
 * При успешной авторизации пользователь попадает на страницу "Профиль", сервер возвращает данные профиля, используя методы:
 [`GET/profile/menu`](https://leoka-estetica-dev.ru.net/swagger/index.html)
 [`GET/profile/skills`](https://leoka-estetica-dev.ru.net/swagger/index.html)

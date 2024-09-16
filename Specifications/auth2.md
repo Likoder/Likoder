@@ -36,22 +36,15 @@
 #### BE:
 
 * Для регистрации используется метод [`GET/user/signup`](https://leoka-estetica-dev.ru.net/swagger/index.html), он забирает входные данные пользователя и возвращает Bearer Token
-* При успешной авторизации пользователь попадает на страницу "Профиль", сервер возвращает данные профиля, используя методы:
-[`GET/profile/menu`](https://leoka-estetica-dev.ru.net/swagger/index.html)
-[`GET/profile/skills`](https://leoka-estetica-dev.ru.net/swagger/index.html)
-[`GET/profile/intents`](https://leoka-estetica-dev.ru.net/swagger/index.html)
-[`GET/profile/remarks`](https://leoka-estetica-dev.ru.net/swagger/index.html)
-[`GET/profile/info`](https://leoka-estetica-dev.ru.net/swagger/index.html)
+* При нажатии пользователем на ссылку "Правила использования платформы" , вызывается метод [`GET/press/offer`](https://leoka-estetica-dev.ru.net/swagger/index.html)
+* При успешной регистрации пользователь попадает на страницу "Профиль".
+
+## Авторизация через Google
+
+
+
+## Авторизация через VK
+
 
 ## Logout
 * 
-
-#### FE:
-* При аутентификации пользователю необходимо заполнить форму:
-
-|Name|Type|Description|
-|-|--------|---|
-|Login|string|Логин пользователя|
-|Password|string|Пароль|
-
-* После аутентификации для доступа к серверу происходит авторизации к порталу через заполнение формы Youtrack

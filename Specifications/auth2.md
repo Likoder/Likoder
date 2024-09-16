@@ -35,7 +35,7 @@
 
 #### BE:
 
-* Для регистрации используется метод [`GET/user/signup`](https://leoka-estetica-dev.ru.net/swagger/index.html), он забирает входные данные пользователя и возвращает Bearer Token
+* Для регистрации используется метод [`GET/user/signup`](https://leoka-estetica-dev.ru.net/swagger/index.html)
 * При нажатии пользователем на ссылку "Правила использования платформы" , вызывается метод [`GET/press/offer`](https://leoka-estetica-dev.ru.net/swagger/index.html)
 * При успешной регистрации пользователь попадает на страницу "Профиль".
 
